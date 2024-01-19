@@ -1,0 +1,186 @@
+* {
+    padding: 2px;
+    margin: 0;
+}
+
+.navbaR {
+    height: 100vh;
+
+}
+
+.nav {
+    position: fixed;
+    border-right: solid 1px rgb(218, 210, 210);
+    padding-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black !important;
+}
+
+.nav-link {
+    transition: transform .3s ease-in-out;
+}
+
+.nav-item:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.nav-item:hover .nav-link {
+    transform: scale(1.05);
+}
+
+.title {
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+}
+
+.dp {
+    border-radius: 50%;
+}
+
+
+.posts {
+    height: 100vh;
+    padding: 15px;
+}
+
+.storyCont {
+    height: 12vh;
+    width: 80vw;
+}
+
+.story {
+    border-radius: 50%;
+    border: 2px solid rgb(241, 25, 115);
+    cursor: pointer;
+}
+
+.noStory{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.storyName {
+    color: rgb(160, 154, 154);
+    font-size: smaller;
+}
+
+.postBox {
+    min-height: 100vh;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.postHeader {
+    align-items: center;
+    cursor: pointer;
+    height: 12vh;
+}
+
+.postHeaderSugg {
+    align-items: center;
+    cursor: pointer;
+    height: 6vh;
+    margin-bottom: 5px;
+}
+
+.ownerName {
+    margin-left: 10px;
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.postFrame {
+    height: 75vh;
+    border: 1px solid rgb(160, 154, 154);
+    border-radius: 7px;
+}
+
+.postImg {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.postContent {
+    border-bottom: 1px solid rgb(160, 154, 154);
+}
+
+.fa-bookmark {
+    margin-left: 370px;
+}
+
+.postToolsToo:hover {
+    color: rgb(160, 154, 154);
+    cursor: pointer;
+}
+
+.suggestionsFrame {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot {
+    color: rgb(160, 154, 154) !important;
+    font-size: small;
+}
+
+.foot a {
+    color: rgb(160, 154, 154) !important;
+}
+
+.foot a:hover {
+    text-decoration: underline;
+}
+
+#foot {
+    color: rgb(160, 154, 154) !important;
+    font-weight: lighter;
+}
+
+.foot2 {
+    font-weight: lighter;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+    width: 25px;
+    height: 30px;
+}
+input{
+    width: 100%;
+    height: 20px;
+    border: none !important;
+    outline: none;
+}
+.emoji{
+    color: rgb(160, 154, 154);
+}
+.emoji:hover{
+    cursor: pointer;
+    color: rgb(218, 212, 212);
+}
+.footPara a{
+text-decoration: none;
+color: rgb(160, 154, 154) !important;
+font-weight: lighter;
+font-size: smaller;
+}
+.suggText:hover{
+    color: rgb(160, 154, 154) !important;
+}
